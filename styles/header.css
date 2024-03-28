@@ -1,0 +1,153 @@
+
+
+ /* Custom CSS for additional styling */
+ /* You can customize this further based on your design requirements */
+ body {
+     font-family: cursive;
+     /* Applying cursive font-family to the body */
+ }
+
+ .navbar-brand img {
+     height: 150px;
+     /* Adjust the height of the logo */
+     transition: height 0.3s ease;
+     /* Smooth transition for logo size change */
+ }
+
+ .navbar-nav .nav-link {
+     font-size: 22px;
+     color: #163555 !important;
+     text-align: center;
+     margin-left: 50px;
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #FF800F !important;
+ }
+
+ .navbar {
+     background-color: transparent;
+     position: absolute;
+     width: 100%;
+     z-index: 999;
+     top: 35px;
+ }
+
+ .logo-container {
+     position: absolute;
+     top: 0px;
+     /* Adjust top position as needed */
+     left: 10px;
+     /* Adjust left position as needed */
+     z-index: 1000;
+     /* Ensure the logo is above the navbar */
+     transition: top 0.3s ease;
+     /* Smooth transition for logo position change */
+ }
+
+ .navbar-toggler {
+     z-index: 1000;
+     /* Ensure the hamburger menu button is above the logo */
+ }
+
+ .navbar-collapse {
+     text-align: center;
+ }
+
+ .navbar-nav {
+     margin: auto;
+ }
+
+ .carousel-item {
+     position: relative;
+     height: 100%;
+     /* Adjust the height as needed */
+ }
+
+ .carousel-item .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.6);
+     /* Background color with opacity */
+ }
+
+ .carousel-caption {
+     top: 55%;
+     transform: translateY(-50%);
+ }
+
+ .carousel-caption h2,
+ .carousel-caption p {
+     color: #fff;
+     font-size: 40px;
+     /* Default font size */
+ }
+
+ .carousel-indicators li {
+     background-color: #163555;
+     /* Change color of carousel indicators */
+ }
+
+ @media (max-width: 768px) {
+     .navbar-brand img {
+         height: 100px;
+         /* Adjusted height for smaller screens */
+     }
+
+     .navbar {
+         top: 0;
+     }
+
+     .logo-container {
+         top: 10px;
+         /* Adjusted top position for smaller screens */
+     }
+
+     .navbar-collapse {
+         position: absolute;
+         top: 60px;
+         /* Adjusted top position for dropdown */
+         right: 0;
+         left: 0;
+         text-align: right;
+         /* Aligning dropdown items to the right */
+         background-color: #007bff;
+         /* Background color for dropdown */
+         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+         /* Adding a shadow for dropdown */
+         border-radius: 5px;
+         /* Adding some border-radius to dropdown */
+         display: none;
+         /* Hide initially */
+     }
+
+     .navbar-nav {
+         margin: 0;
+         /* Reset margin */
+     }
+
+     .navbar-nav .nav-item {
+         padding: 10px;
+     }
+
+     .navbar-nav .nav-link {
+         color: white !important;
+         text-align: center;
+         transition: background-color 0.3s ease;
+         /* Smooth transition for background color */
+     }
+
+     .navbar-nav .nav-link:hover {
+         background-color: #c5ced6 !important;
+         /* Change background color on hover */
+     }
+
+     .show {
+         display: block !important;
+         /* Show the dropdown when toggled */
+     }
+ }
+

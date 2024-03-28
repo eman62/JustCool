@@ -1,0 +1,54 @@
+.additional-services-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.additional-service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 100%;
+    /* Set a fixed height for all cards */
+}
+
+.additional-service-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    /* Add transition property */
+}
+
+.additional-service-card img:hover {
+    transform: scale(1.1);
+    /* Scale up the image on hover */
+}
+
+
+.additional-service-card h3 {
+    color: #163555;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.additional-service-card p {
+    color: #6c757d;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.background-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}

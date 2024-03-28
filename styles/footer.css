@@ -1,0 +1,51 @@
+.contact-section {
+    background: linear-gradient(to bottom, #a6d4ff, #007bff);
+    /* Use slightly lighter shade of blue */
+    color: #fff;
+    /* Text color to white */
+    padding: 50px 0;
+}
+
+.contact-section p {
+    margin: 0;
+    /* Remove default margin for paragraphs */
+}
+
+.contact-section .fas {
+    margin-right: 10px;
+    /* Add some space between icon and text */
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.contact-section .row {
+    justify-content: center;
+    /* Center align items */
+}
+
+.contact-section .col-md-3 {
+    text-align: center;
+    /* Center align text */
+    margin-bottom: 20px;
+    /* Add some spacing between rows */
+}
+
+.contact-section .fas {
+    font-size: 30px;
+}
+
+.contact-section .col-md-12 {
+    text-align: center;
+    /* Center align text */
+}
+
+/* Adjust spacing for better presentation */
+.contact-section .row:last-child {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+

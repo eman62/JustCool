@@ -1,0 +1,54 @@
+.tips-section {
+     padding: 50px 0;
+     background-color: #f8f9fa;
+ }
+
+ .section-title {
+     color: #163555;
+     font-size: 35px;
+     margin-bottom: 10vh;
+ }
+
+ .tips-list {
+     margin-top: 30px;
+ }
+
+ .tip {
+     margin-bottom: 30px;
+ }
+
+ .tip h3 {
+     color: #163555;
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
+
+ .tip p {
+     font-size: 18px;
+ }
+
+ .tips-note {
+     font-size: 16px;
+     font-style: italic;
+     margin-top: 30px;
+ }
+
+
+ @media (max-width: 768px) {
+     .section-title {
+         font-size: 28px;
+     }
+
+     .tip h3 {
+         font-size: 22px;
+     }
+
+     .tip p {
+         font-size: 16px;
+     }
+
+     .tips-note {
+         font-size: 14px;
+     }
+ }
+

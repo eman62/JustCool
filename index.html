@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال على شريط التصفح والسلايدر</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/section1.css">
+    <link rel="stylesheet" type="text/css" href="styles/section2.css">
+    <link rel="stylesheet" type="text/css" href="styles/section3.css">
+    <link rel="stylesheet" type="text/css" href="styles/section4.css">
+    <link rel="stylesheet" type="text/css" href="styles/section5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+
+</head>
+
+<body>
+    
+
+    <div class="logo-container">
+        <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="شعار"></a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="home-link" >الرئيسية <span class="sr-only">(الحالي)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">الخدمات </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">تواصل معنا</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay"></div> 
+                <img src="assets/slider-1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 style="color: #163555;"> <span style="color: #FF800F;">Just</span> Cool</h2>
+                    <p style="color: #163555;"> صيانه وتركيب جميع أنواع التكييفات</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div> 
+                <img src="assets/slider-3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 style="color: #FF800F;"> <span style="color: #163555;">Just</span> Cool</h2>
+                <p style="color: #163555;">  تأسيس وتجهيز المواسير لتركيب التكييفات</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">السابق</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">التالي</span>
+        </a>
+    </div>
+    <!-- ماذا نقدم لك في just cool -->
+    
+<p class="slider-paragraph" id="services-section">ماذا نقدم لك في <span style="color: #FF800F;">Just</span> Cool ؟      </p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/installation.png" alt="Service Icon" class="service-icon" >
+                <p class="service-title">فك وتركيب</p>
+                <p>فك و تركيب جميع أنواع التكييفات </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/repair.png" alt="Service Icon" class="service-icon">
+                <p class="service-title">صيانة</p>
+                <p> صيانة دوريه لجميع أنواع التكييفات</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/installation.png" alt="Service Icon" class="service-icon">
+                <p class="service-title">أصلاح</p>
+                <p>  أصلاح جميع أعطال التكييفات</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/clean.png" alt="Service Icon" class="service-icon">
+                <p class="service-title">تنظيف</p>
+                <p>تنظيف فلاتر التكييفات</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/freon.png" alt="Service Icon" class="service-icon">
+                <p class="service-title">شحن فريون </p>
+                <p> شحن فريون جميع أنواع التكييفات </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/pipes.png" alt="Service Icon" class="service-icon">
+                <p class="service-title">تجهيزات </p>
+                <p>     تجهيزات ودفن مواسير التكييف</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/air-conditioner.png" alt="Service Icon" class="service-icon" >
+                <p class="service-title">قطع غيار</p>
+                <p>    توريد وتركيب قطع غيار التكييف</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="service-card">
+                <img src="assets/air-conditioning (1).png" alt="Service Icon" class="service-icon">
+                <p class="service-title">تأسيس</p>
+                <p>  كل ما يخص تأسيس مواسير التكييف</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- "Why Choose Just Cool" -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-title">لماذا تختار "<span style="color: #FF800F;">Just</span> Cool"؟</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="margin-top: 4vh;">
+                    <div class="row">
+                        <div class="col-md-6" >
+                            <img src="assets/why-image1.jpg" alt="Image 1" class="img-fluid mb-3" height="100%" >
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/why-image2.jpg" alt="Image 2" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <img src="assets/why-image3.jpg"
+                        alt="Why Choose Just Cool" class="img-fluid">
+                </div>
+
+                <div class="col-md-6" >
+                    <div class="reasons-list">
+                        <div class="reason">
+                            <h3 >جودة الخدمة</h3>
+                            <p>نحن نقدم خدمات ذات جودة عالية وموثوقة في مجال تركيب وصيانة التكييفات.</p>
+                        </div>
+                        <div class="reason">
+                            <h3>فريق متخصص</h3>
+                            <p>لدينا فريق عمل متخصص ومدرب تدريباً عالياً يضمن تلبية جميع احتياجاتك بكفاءة.</p>
+                        </div>
+                        <div class="reason">
+                            <h3>خدمة عملاء ممتازة</h3>
+                            <p>نحن نولي اهتماماً كبيراً برضا عملائنا ونسعى دائماً لتقديم تجربة خدمة ممتازة.</p>
+                        </div>
+                        <div class="reason">
+                            <h3>أسعار منافسة</h3>
+                            <p>نحن نقدم أسعارًا منافسة في السوق لضمان رضاكم.</p>
+                        </div>
+                        <div class="reason">
+                            <h3>خدمة 24 ساعة</h3>
+                            <p>نحن هنا لخدمتكم على مدار الساعة، لا تترددوا في الاتصال بنا في أي وقت.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+<section class="materials-section" style="background-image: url('assets/secttion2bg.jpg');" >
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title">خامات التأسيس المستخدمة في "<span style="color: #FF800F;">Just</span> Cool"</h2>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>نحاس جنوب افريقي</h3>
+                <p>درجة أولى</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>عزل أرم فليكس</h3>
+                <p>درجة أولى</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>عزى خارجي</h3>
+                <p>أبيض - درجة أولى</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>سلك كنترول</h3>
+                <p>معتمد 7*1 - سويدي</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>عزل الماسورة بالكامل</h3>
+                <p>درجة أولى</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="material-card">
+                <h3>عزل أرضي للماسورة</h3>
+                <p>للحفاظ عليها أثناء التأسيس</p>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="material-card">
+                <h3>ضغط الماسورة بغاز النيتروجين</h3>
+                <p>للتأكد من سلامة الماسورة بعد تركيبها وقبل تركيب التكييف</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="background-overlay"></div>
+</section>
+
+
+<section class="additional-services-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title">خدمات إضافية</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="additional-service-card">
+                    <img src="assets/section4image1.jpeg" alt="Additional Service 1" class="img-fluid">
+                    <h3>أجهزة تكييف مستعملة</h3>
+                    <p>أجهزة تكييف مستعملة كسر زيرو وبحالة ممتازة.</p>
+                </div>
+            </div>
+         
+            <div class="col-md-4">
+                <div class="additional-service-card">
+                    <img src="assets/section4image2.jpeg" alt="Additional Service 3" class="img-fluid">
+                    <h3>شراء تكييفات مستعملة</h3>
+                    <p>نشتري أي تكييف مهما كانت حالته.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="additional-service-card">
+                    <img src="assets/section4image3.jpeg" alt="Additional Service 4" class="img-fluid">
+                    <h3>كفرات تكييف</h3>
+                    <p>نوفر لك كفرات تكييف لكل الماركات وبكل المقاسات مع خامة وتربروف أصلية عالية الجودة.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-overlay2"></div>
+</section>
+<section class="tips-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="section-title">نصائح تقدمها لك <span style="color: #FF800F;">Just</span> Cool</h2>
+                <div class="tips-list">
+                    <div class="tip">
+                        <h3>تنظيف فلاتر التكييف</h3>
+                        <p>احرص على تنظيف فلاتر التكييف بشكل دوري لضمان أفضل جودة للهواء.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>تجنب الانسدادات</h3>
+                        <p>تأكد من عدم وجود أي انسدادات في مجرى الهواء لتحسين كفاءة التبريد.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>ضبط درجة الحرارة</h3>
+                        <p>اضبط درجة حرارة التكييف على مستوى معتدل للراحة العامة.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>إغلاق التكييف</h3>
+                        <p>أغلق التكييف عند مغادرة الغرفة لتوفير الطاقة والحفاظ على الجهاز.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>صيانة دورية</h3>
+                        <p>قم بإجراء صيانة دورية للتكييف من قبل فني متخصص لضمان عمر طويل للجهاز.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact-section" class="contact-section" style=" color: #fff; padding: 50px 0;">
+    <div class="container text-center">
+        <h2 style="margin-bottom: 30px;">تواصل معنا</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <i class="fas fa-phone-alt" style="font-size: 30px;"></i>
+                <p>01123577857</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-phone-alt" style="font-size: 30px;"></i>
+                <p>01094374351</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-phone-alt" style="font-size: 30px;"></i>
+                <p>01557135455</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-phone-alt" style="font-size: 30px;"></i>
+                <p>01204783855</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-12">
+                <i class="fas fa-map-marker-alt" style="font-size: 30px;"></i>
+                <p>مدينة نصر الهيئة العربية للتصنيع مكرم عبيد بجوار سيتى سنتر</p>
+            </div>
+        </div>
+       
+    </div>
+    <div class="container" style="text-align: center;font-size: 12px;margin-top: 20px;">
+        <p style="direction: rtl;">2024 Just Cool.&copy;  جميع الحقوق محفوظة.</p>
+    </div>
+</section>
+<script>
+    document.getElementById('home-link').addEventListener('click', function (event) {
+        location.reload();
+    });
+</script>
+<script>
+    function smoothScroll(target, duration) {
+        var targetElement = document.querySelector(target);
+        var targetPosition = targetElement.getBoundingClientRect().top;
+        var startPosition = window.pageYOffset;
+        var distance = targetPosition - startPosition;
+        var startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            var timeElapsed = currentTime - startTime;
+            var run = ease(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        function ease(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    document.querySelector('.nav-link[href="#services"]').addEventListener('click', function (event) {
+        event.preventDefault();
+        smoothScroll('#services-section', 1000);
+    });
+
+    document.querySelector('.nav-link[href="#contact"]').addEventListener('click', function (event) {
+        event.preventDefault();
+        smoothScroll('#contact-section', 1000);
+    });
+</script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
